@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Quasimoda-Bold';
+    src: url('fonts/Quasimoda-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quasimoda-Regular';
+    src: url('fonts/Quasimoda-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen and (min-width: 576px) {
+  .optionalDescription {
+    display: none;
+  }
+  .optionalDiv {
+    margin-bottom: 2rem;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .popover {
+    font-family: Quasimoda-Regular;
+    color: #597A84;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .optionalDiv {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .popover {
+    display: none;
+  }
+}
+
+body {
+  background-color: #F6F9FA;
+}
+
+h3 {
+  font-family: Quasimoda-Bold;
+  color: #438BAD;
+}
+
+.form-control {
+  font-family: Quasimoda-Regular;
+  color: #597A84;
+  font-size: 16px;
+  border: 2px solid;
+  border-color: #D2E3E5;
+}
+
+label {
+  font-family: Quasimoda-Bold;
+  color: #8EB9CE;
+  font-size: 13px;
+  letter-spacing: 1.75px;
+  float: left;
+}
+
+#logo {
+  width: 40px;
+}
+
+nav, .container {
+  background-color: #FFFFFF;
+}
+
+#profileForm {
+  padding: 2.5%;
+}
+
+.miniLabel {
+  font-family: Quasimoda-Regular;
+  color: #8EB9CE;
+  font-size: 13px;
+  letter-spacing: 1.75;
+  float: right;
+}
+
+.otherClass {
+  height: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+  width: 95%;
+}
+
+.optionalContainer {
+  background-color: #F6F9FA;
+}
+
+.optionalInput {
+  border-color: #6C9BA9;
+}
+
+.optionalMiniLabel {
+  margin-left: 10px;
+  color: #8EB9CE;
+  font-size: 14px;
+  font-style: italic;
+  font-family: Quasimoda-Regular;
+}
+
+.optionalDescription {
+  font-family: Quasimoda-Regular;
+  font-size: 14px;
+  color: #597A84;
+}
+
+#saveButton {
+  color: #FFFFFF;
+  background-color: #E4B030;
+  font-size: 14px;
+  font-family: Quasimoda-Bold;
+  letter-spacing: 2px;
+}
+
+#cancelButton {
+  color: #438BAD;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  font-family: Quasimoda-Bold;
+  letter-spacing: 2px;
+  border-width: 2px;
+  border-color: #B4D1DE;
+}
+
+#joiningDate {
+  border-width: 2px 0px 2px 2px;
+  border-color: #D2E3E5;
+}
+
+.inputIcon {
+  color: #8EB9CE;
+  background-color: #FFFFFF;
+  border-width: 2px 2px 2px 0px;
+  border-color: #D2E3E5;
+}
+
+select.input-lg {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+}
+
+select + i.fa {
+  float: right;
+  margin-top: -27px;
+  margin-right: 5px;
+  color: #8EB9CE;
+  pointer-events: none;
+  background-color: #fff;
+  padding-right: 5px;
+}
