@@ -84,13 +84,6 @@ nav, .container {
   float: right;
 }
 
-.otherClass {
-  height: auto;
-  max-height: 200px;
-  overflow-x: hidden;
-  width: 95%;
-}
-
 .optionalContainer {
   background-color: #F6F9FA;
 }
